@@ -1,0 +1,21 @@
+p {
+  color: 250, 250, 250;
+}
+
+.title {
+  color: #125ace;
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+
+.backgroundimage1 {
+  color: #125ace;
+  background-color: aqua;
+  height: 200px;
+  background-image: url(https://www.allkpop.com/upload/2020/12/content/161231/1608139905-entertainment.jpg);
+  background: rgba(0, 128, 0, 0.3) /* Green background with 30% opacity */
+  height: 300px;
+  text-align: center;
+  border-style: outset;
+  padding: 25px 50px 75px;
+}
