@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="mx-auto">
+    <div class="bg-[#1B3764]">
+      <div class="w-full px-10 m-0 mx-auto max-w-7xl">
+        <div class="flex flex-row justify-between max-w-7xl">
+          <div class="flex flex-row p-4 space-x-2 text-white">
+            <image class="h-8" src="./Vector.png" />
+            <h1 class="text-3xl subpixel-antialiased">Pages</h1>
+            <img class="w-10 h-10" src="./Twitter.png" />
+            <img class="w-10 h-10" src="./Facebook.png" />
+            <img class="w-10 h-10" src="./LinkedIn.png" />
+          </div>
+          <div class="flex space-x-10">
+            <ul class="flex flex-row items-center space-x-10 text-white">
+              <li>
+                <a href="">Home</a>
+              </li>
+              <li>
+                <a href="">Pages</a>
+              </li>
+              <li>
+                <a href="">About</a>
+              </li>
+              <li>
+                <a href="">Services</a>
+              </li>
+              <li>
+                <a href=""> Contact</a>
+              </li>
+              <li class="bg-[#FFCA42] p-4 text-black">Order Today</li>
+            </ul>
+          </div>
+        </div>
+        <div class="w-full mt-44 max-w-7xl">
+          <div class="mx-auto text-center text-white">
+            <div class="max-w-xl m-auto">
+              <h1 class="font-serif text-6xl">About the Author</h1>
+              <img class="pt-8 m-auto" src="./Line (1).png" alt="" />
+              <p class="py-16 font-serif text-blue-200">
+                There are many variations of passages of Lorem Ipsum available,
+                have suffered alteration in some form.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-[#F6F8FC] pb-36">
+      <div class="m-auto max-w-7xl">
+        <img class="py-12 m-auto drop-shadow-2xl" src="./Photo.jpg" alt="" />
+        <div class="">
+          <div class="flex flex-row gap-10">
+            <img src="./Details.png" alt="" />
+            <div class="max-w-xl">
+              <h1 class="font-serif text-5xl">About Dr.John Abraham</h1>
+              <img class="pt-10" src="./Line (1).png" alt="" />
+              <p class="mt-11 text-[#969AA0]">
+                All the Lorem Ipsum generators on the Internet tend to repeat
+                predefined chunks as necessary, making this the first true
+                generator on the Internet. It uses a dictionary of over 200
+                Latin words, that can combined with a handful of model sent.
+              </p>
+              <button class="bg-[#FFCA42] text-black p-4 py-5 px-16 mt-14">
+                Contact now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-row">
+      <div class="flex flex-row mx-auto mt-40 mb-40 gap-x-28 max-w-7xl">
+        <div>
+          <h2 class="text-5xl">My Story</h2>
+          <img class="pt-6" src="./Line (1).png" alt="" />
+          <p class="text-lg text-[#969AA0] mt-14">
+            Making this the first true generator on the Internet. It uses a
+            dictionary of over 200 Latin words, combined with a handful of model
+            sentence structures.
+          </p>
+
+          <div class="flex flex-row mt-10">
+            <div class="z-50 flex flex-col gap-y-16 w-14">
+              <button class="text-xl bg-[#FFCA42] w-20 h-20 mt-4">01</button>
+              <button class="text-xl bg-[#FFCA42] w-20 h-20 mt-4">02</button>
+              <button class="text-xl bg-[#FFCA42] w-20 h-20 mt-4">03</button>
+            </div>
+            <div
+              class="relative flex flex-col justify-between pl-20 mt-4 border-l-2 border-black border-dashed right-4"
+            >
+              <div class="flex flex-row gap-x-4">
+                <div class="">
+                  <h4 class="text-xl leading-none">
+                    Great Author Awards - 1996 & 2000
+                  </h4>
+                  <p class="pt-4 text-[#969AA0]">
+                    How to navigate around the interface and toggle on/off the
+                    panels you wish to use.
+                  </p>
+                </div>
+              </div>
+              <div class="flex flex-row mt-10 gap-x-4">
+                <div>
+                  <h4 class="text-xl leading-none">
+                    10 Times New York Times ® Best Seller
+                  </h4>
+                  <p class="pt-4 text-[#969AA0]">
+                    How to navigate around the interface and toggle on/off the
+                    panels you wish to use.
+                  </p>
+                </div>
+              </div>
+              <div class="flex flex-row mt-8 gap-x-4">
+                <div>
+                  <h4 class="text-xl leading-none">
+                    Writer of Hack Productivity
+                  </h4>
+                  <p class="pt-4 text-[#969AA0]">
+                    How to navigate around the interface and toggle on/off the
+                    panels you wish to use.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pt-4 pr-28">
+          <img class="max-w-4xl drop-shadow-2xl" src="./Image.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="bg-[#F5F8FC] pt-36 mb-36 max-h-full pb-36">
+      <div>
+        <h1 class="pb-6 text-4xl text-center text-[#FFF]">
+          Author's Book Includes
+        </h1>
+        <img class="pb-20 m-auto" src="./Line (1).png" alt="" />
+      </div>
+      <div class="m-auto max-w-7xl">
+        <div class="flex flex-row gap-14">
+          <div class="flex flex-row gap-11">
+            <img
+              class="ml-10 w-60 drop-shadow-2xl"
+              src="https://media.discordapp.net/attachments/1073755227737567365/1074806480911478804/Screen_Shot_2023-02-13_at_4.37.08_PM.png"
+              alt=""
+            />
+            <div class="mt-5">
+              <h2 class="font-serif text-3xl">Atomic One's</h2>
+              <p class="text-[#969AA0] mt-4">
+                Many variations of passages of Lorem Ipsum willing araise
+                alteration in some form.
+              </p>
+              <div class="flex flex-row gap-6 pt-4">
+                <div class="relative flex gap-2">
+                  <div class="bg-yellow-400 rounded-[50%] h-3 w-3 mt-2"></div>
+                  <div class="leading-none">
+                    <p class="text-[#1B3764] text-xl font-serif">Pages</p>
+                    <div class="pt-2">
+                      <p class="text-[#969AA0] text-lg">586pages</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="relative flex gap-2">
+                  <div class="bg-yellow-400 rounded-[50%] h-3 w-3 mt-2"></div>
+                  <div class="leading-none">
+                    <p class="text-[#1B3764] text-xl font-serif">Length</p>
+                    <div class="pt-2">
+                      <p class="text-[#969AA0] text-lg">10 Hours</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="w-40 p-4 font-serif text-center border mt-7 border-amber-200"
+              >
+                <h3 class="">Order Today</h3>
+              </div>
+            </div>
+            <div>
+              <div class="flex flex-row gap-14">
+                <img
+                  class="w-60 drop-shadow-2xl"
+                  src="https://media.discordapp.net/attachments/1073755227737567365/1074804658121494598/Screen_Shot_2023-02-11_at_9.png?width=790&height=1067"
+                  alt=""
+                />
+                <div class="mt-5">
+                  <h2 class="font-serif text-3xl">The Dark Light</h2>
+                  <p class="text-[#969AA0] mt-4">
+                    Many variations of passages of Lorem Ipsum willing araise
+                    alteration in some form.
+                  </p>
+                  <div class="flex flex-row gap-6 pt-4">
+                    <div class="relative flex gap-2">
+                      <div
+                        class="bg-yellow-400 rounded-[50%] h-3 w-3 mt-2"
+                      ></div>
+                      <div class="leading-none">
+                        <p class="text-[#1B3764] text-xl font-serif">Pages</p>
+                        <div class="pt-2">
+                          <p class="text-[#969AA0] text-lg">586pages</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="relative flex gap-2">
+                      <div
+                        class="bg-yellow-400 rounded-[50%] h-3 w-3 mt-2"
+                      ></div>
+                      <div class="leading-none">
+                        <p class="text-[#1B3764] text-xl font-serif">Length</p>
+                        <div class="pt-2">
+                          <p class="text-[#969AA0] text-lg">10 Hours</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="w-40 p-4 font-serif text-center border mt-7 border-amber-200"
+                  >
+                    <h3 class="">Order Today</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="max-w-6xl pb-24 m-auto">
+      <h1 class="font-serif text-4xl text-center text-[#1B3764]">
+        Trusted by the Best
+      </h1>
+      <img class="pt-6 m-auto" src="./Line (1).png" alt="" />
+      <div class="flex flex-row pt-10 gap-x-24">
+        <div class="m-auto max-w-7xl">
+          <img
+            src="https://media.discordapp.net/attachments/1073755227737567365/1078078611220861030/amazon.png"
+            alt=""
+          />
+          <h2 class="text-center">Amazen Corp</h2>
+          <p class="text-[#969AA0]">
+            A long established fact that a who looking at its layout.
+          </p>
+        </div>
+        <div>
+          <img
+            src="https://media.discordapp.net/attachments/1073755227737567365/1078078610956628068/megan.png"
+            alt=""
+          />
+          <h3 class="text-center">Megan Books</h3>
+          <p class="text-[#969AA0]">
+            A long established fact that a who looking at its layout.
+          </p>
+        </div>
+        <div>
+          <img
+            src="https://media.discordapp.net/attachments/1073755227737567365/1078078611719983134/megan2.png"
+            alt=""
+          />
+          <h3 class="text-center">Los Books</h3>
+          <p class="text-[#969AA0]">
+            A long established fact that a who looking at its layout.
+          </p>
+        </div>
+        <div>
+          <img
+            src="https://media.discordapp.net/attachments/1073755227737567365/1078078611472535602/circle.png"
+            alt=""
+          />
+          <h3 class="text-center">Urban Lib</h3>
+          <p class="text-[#969AA0]">
+            A long established fact that a who looking at its layout.
+          </p>
+        </div>
+      </div>
+      <div class="bg-[#FFCA42] max-w-6xl m-auto">
+        <div class="p-24 mt-32 text-center">
+          <h2 class="font-serif text-4xl">Read a free chapter</h2>
+          <img class="pt-4 m-auto" src="./Line (3).png" alt="" />
+          <p class="max-w-xl pt-8 m-auto">
+            Making this the first true value generator on the Internet. It of
+            over 200 Latin words, combined with a handful.
+          </p>
+          <div class="flex flex-row gap-5 mt-9">
+            <div class="bg-[#FFF] p-3 max-w-sm ml-44">
+              <p class="text-base pr-52 text-[#969AA0]">Your Email id...</p>
+            </div>
+            <div>
+              <h3 class="bg-[#1B3764] text-[#FFF] px-14 py-4">Subscribe</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-[#1B3764]">
+      <div class="flex flex-row justify-between p-20 m-auto max-w-8xl">
+        <div class="pt-4">
+          <div class="">
+            <div class="flex flex-row gap-3">
+              <image class="h-8" src="./Vector.png" />
+              <h1 class="text-3xl subpixel-antialiased text-[#FFF]">Pages</h1>
+            </div>
+            <div class="flex flex-row pt-3">
+              <img
+                class="w-14 h-14"
+                src="./截屏2023-02-22 下午6.18.02的副本.png"
+              />
+              <img class="w-14 h-14" src="./截屏2023-02-22 下午6.18.08.png" />
+              <img class="w-14 h-14" src="./截屏2023-02-22 下午6.18.14.png" />
+              <img
+                class="w-14 h-14"
+                src="./截屏2023-02-22 下午6.18.21.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-row ml-36 max-w-7xl gap-x-24">
+          <div class="">
+            <h3 class="text-[#FFF] text-2xl pb-4 font-serif">Explore</h3>
+            <div class="text-[#B4C7E7]">
+              <div class="flex flex-row gap-2 pb-2">
+                <img
+                  class="pt-1 h-7"
+                  src="./截屏2023-02-22 下午6.27.26.png"
+                  alt=""
+                />
+                <h3 class="text-lg">Home</h3>
+              </div>
+              <div class="flex flex-row gap-2 pb-2">
+                <img
+                  class="pt-1 h-7"
+                  src="./截屏2023-02-22 下午6.27.26.png"
+                  alt=""
+                />
+                <h3 class="text-lg">About Us</h3>
+              </div>
+              <div class="flex flex-row gap-2 pb-2">
+                <img
+                  class="pt-1 h-7"
+                  src="./截屏2023-02-22 下午6.27.26.png"
+                  alt=""
+                />
+                <h3 class="text-lg">Services</h3>
+              </div>
+              <div class="flex flex-row gap-2 pb-2">
+                <img
+                  class="pt-1 h-7"
+                  src="./截屏2023-02-22 下午6.27.26.png"
+                  alt=""
+                />
+                <h3 class="text-lg">Appointments</h3>
+              </div>
+
+              <div class="flex flex-row gap-2 pb-2">
+                <img
+                  class="pt-1 h-7"
+                  src="./截屏2023-02-22 下午6.27.26.png"
+                  alt=""
+                />
+                <h3 class="text-lg">Blog</h3>
+              </div>
+              <div class="flex flex-row gap-2 pb-2">
+                <img
+                  class="pt-1 h-7"
+                  src="./截屏2023-02-22 下午6.27.26.png"
+                  alt=""
+                />
+                <h3 class="text-lg">Contact Us</h3>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3 class="text-[#FFF] text-2xl pb-4 font-serif">Utility Pages</h3>
+            <div class="text-[#B4C7E7]">
+              <div class="flex flex-row gap-2 pb-2">
+                <img
+                  class="pt-1 h-7"
+                  src="./截屏2023-02-22 下午6.27.26.png"
+                  alt=""
+                />
+                <h3 class="text-lg">Start here</h3>
+              </div>
+              <div class="flex flex-row gap-2 pb-2">
+                <img
+                  class="pt-1 h-7"
+                  src="./截屏2023-02-22 下午6.27.26.png"
+                  alt=""
+                />
+                <h3 class="text-lg">Style guide</h3>
+              </div>
+              <div class="flex flex-row gap-2 pb-2">
+                <img
+                  class="pt-1 h-7"
+                  src="./截屏2023-02-22 下午6.27.26.png"
+                  alt=""
+                />
+                <h3 class="text-lg">404 not found</h3>
+              </div>
+              <div class="flex flex-row gap-2 pb-2">
+                <img
+                  class="pt-1 h-7"
+                  src="./截屏2023-02-22 下午6.27.26.png"
+                  alt=""
+                />
+                <h3 class="text-lg">Password protected</h3>
+              </div>
+
+              <div class="flex flex-row gap-2 pb-2">
+                <img
+                  class="pt-1 h-7"
+                  src="./截屏2023-02-22 下午6.27.26.png"
+                  alt=""
+                />
+                <h3 class="text-lg">Licenses</h3>
+              </div>
+              <div class="flex flex-row gap-2 pb-2">
+                <img
+                  class="pt-1 h-7"
+                  src="./截屏2023-02-22 下午6.27.26.png"
+                  alt=""
+                />
+                <h3 class="text-lg">Changelog</h3>
+              </div>
+            </div>
+          </div>
+          <div class="max-w-5xl pr-10">
+            <h3 class="text-2xl text-[#FFF] font-serif">Keep in Touch</h3>
+            <div class="max-w-2xl pt-3">
+              <div class="flex flex-row gap-2 pt-5">
+                <p class="text-[#FFF] text-base font-serif">Address:</p>
+                <p class="text-[#B4C7E7]">
+                  24A Kingston St, Los Vegas NC 28202, USA.
+                </p>
+              </div>
+              <div class="flex flex-row gap-4 pt-5">
+                <h4 class="text-[#FFF] text-base font-serif">Mail:</h4>
+                <p class="text-[#B4C7E7]">support@doctors.com</p>
+              </div>
+              <div class="flex flex-row gap-3 pt-5">
+                <h4 class="text-[#FFF] text-base font-serif">Phone:</h4>
+                <p class="text-[#B4C7E7]">(+22) 123 - 4567 - 900</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="max-w-6xl m-auto">
+        <div>
+          <img class="pb-10" src="./Line (4).png" alt="" />
+        </div>
+        <div class="flex flex-row justify-center gap-2">
+          <img class="w-4 h-4 mt-1.5" src="./©.png" alt="" />
+          <h3 class="text-[#B4C7E7]">Drafted by</h3>
+          <h3 class="pb-8 text-[#FFF]">Victorflow</h3>
+          <h3 class="text-[#B4C7E7]">- Powered by Webflow</h3>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
